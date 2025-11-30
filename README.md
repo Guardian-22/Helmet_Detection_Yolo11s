@@ -122,12 +122,12 @@ After 100 epochs:
 ⚡ Inference Speed: 50–70 FPS on NVIDIA T4
 🔥 Perfect for real-time CCTV, traffic monitoring, and IoT devices.
 
-#🧰 Installation
+# 🧰 Installation
 ```bash
 pip install ultralytics
 ```
 # 🧪 Inference Examples
-##Image Prediction
+## Image Prediction
 ```python
 from ultralytics import YOLO
 
@@ -135,7 +135,7 @@ model = YOLO("helmet_baseline.pt")
 results = model("test.jpg")
 results[0].show()
 ```
-# Webcam / Video
+## Webcam / Video
 ```python
 results = model.predict(source=0, show=True)
 ```
@@ -161,6 +161,22 @@ Here are some examples of the model detecting license plates:
   <br>
   <em>Training Metrics (Precision, Recall, mAP, Loss Curves)</em>
 </p>
+
+## Acknowledgements
+
+This project uses the following open-source datasets for training the helmet detection model:
+
+1. **Bike Helmet Detection Dataset**  
+   - Author: Bike Helmets  
+   - Source: [Roboflow Universe](https://universe.roboflow.com/bike-helmets/bike-helmet-detection-2vdjo)  
+   - License: Open Source  
+   - Year: 2021  
+
+2. **Helmet Detection Dataset**  
+   - Author: ImageRecognition  
+   - Source: [Roboflow Universe](https://universe.roboflow.com/imagerecognition-43zpb/helmet-detection-ntbfz)  
+   - License: Open Source  
+   - Year: 2024
 
 # 🔗 Contact
 
