@@ -32,6 +32,9 @@ Super-fast: 50–70 FPS on T4 GPU.
 
 # 🗂 Dataset
 
+Dataset Link:
+https://app.roboflow.com/smarthsrp/helmet-and-non-helmet-detection-03zb2/2
+
 Total Images: ~10,000
 
 Split	Count
@@ -128,7 +131,7 @@ pip install ultralytics
 ```python
 from ultralytics import YOLO
 
-model = YOLO("helmet_best.pt")
+model = YOLO("helmet_baseline.pt")
 results = model("test.jpg")
 results[0].show()
 ```
@@ -137,9 +140,32 @@ results[0].show()
 results = model.predict(source=0, show=True)
 ```
 
+# 📸 Sample Detection Results
+
+Here are some examples of the model detecting license plates:
+
+<p align="center">
+  <img src="Result/single_inference_result.png" width="500">
+  <br>
+  <em>Single Image Inference</em>
+</p>
+
+<p align="center">
+  <img src="Result/batch1_labels_result.jpg" width="500">
+  <br>
+  <em>Model performance on multiple images in a batch.</em>
+</p>
+
+<p align="center">
+  <img src="Result/results.png" width="500">
+  <br>
+  <em>Training Metrics (Precision, Recall, mAP, Loss Curves)</em>
+</p>
+
 # 🔗 Contact
 
 Kshitij Lalge
+
 AI/ML Enthusiast
 
 📌 GitHub: https://github.com/Guardian-22
