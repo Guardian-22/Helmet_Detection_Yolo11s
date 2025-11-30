@@ -18,12 +18,17 @@ The model is optimized for:
 
 # 📌 Features
 
-Detects helmet and no-helmet riders
-Supports real-time video / webcam inference
-Compatible with Flask, FastAPI, OpenCV apps
-Trained using extensive augmentations
-Export-ready for ONNX / TensorRT / TFLite
-Super-fast: 50–70 FPS on T4 GPU
+Detects helmet and no-helmet riders.
+
+Supports real-time video / webcam inference.
+
+Compatible with Flask, FastAPI, OpenCV apps.
+
+Trained using extensive augmentations.
+
+Export-ready for ONNX / TensorRT / TFLite.
+
+Super-fast: 50–70 FPS on T4 GPU.
 
 # 🗂 Dataset
 
