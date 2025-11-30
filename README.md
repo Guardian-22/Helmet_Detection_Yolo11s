@@ -113,10 +113,10 @@ After 100 epochs:
 
 | Metric        | Score |
 | ------------- | ----- |
-| **mAP50**     | ~0.94 |
-| **mAP50-95**  | ~0.78 |
-| **Precision** | High  |
-| **Recall**    | High  |
+| **Precision** | 0.92  |
+| **Recall**    | 0.85  |
+| **mAP50**     | 0.92  |
+| **mAP50-95**  | 0.65  |
 
 
 ⚡ Inference Speed: 50–70 FPS on NVIDIA T4
