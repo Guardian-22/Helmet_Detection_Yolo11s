@@ -53,13 +53,15 @@ To improve generalization, both Roboflow augmentations and YOLO11 augmentations 
 
 ## Applied before training:
 
-Augmentation	Purpose
-Auto-Orient Fix	Correct camera orientation via EXIF
-Random Rotation	Simulate angle variations
-Random Flip	Left–right variations
-Brightness / Exposure	Lighting variation
-Sharpness	Improve clarity
-Resize 640×640	YOLO input size
+| Augmentation          | Purpose                             |
+| --------------------- | ----------------------------------- |
+| Auto-Orient Fix       | Correct camera orientation via EXIF |
+| Random Rotation       | Simulate angle variations           |
+| Random Flip           | Left–right variations               |
+| Brightness / Exposure | Lighting variation                  |
+| Sharpness             | Improve clarity                     |
+| Resize 640×640        | YOLO input size                     |
+
 
 ## 2️⃣ YOLO11 In-Training Augmentations
 perspective=0.0004,
